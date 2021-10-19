@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color: #1c1c1c;
+    height:768px;
+    width:1366px;
+    background-image : url('userbiobg.jpeg');
+}
+
+input{
+    width:949px;
+    height:37.5px;
+    background-color:white;
+    border-radius:62px;
+    padding-left:20px;
+    font-family: 'Antic Didone';
+    font-size:28px;
+}
+
+label{  
+    font-size:30px;
+    color:white;
+    font-family: 'Antic Didone';
+}
+
+.id{
+    width:474.3px;
+    position:absolute;
+    left:820px;
+    top:110px;
+}
+
+.id-label{
+    position:absolute;
+    left:848px;
+    top:78px;
+}
+
+.nama{
+    width:474.3px;
+    position:absolute;
+    left:820px;
+    top:193.5px;
+}
+
+.nama-label{
+    position:absolute;
+    left:848px;
+    top:161px;
+}
+
+.tanggal-lahir{
+    width:474.3px;
+    position:absolute;
+    left:820px;
+    top:277px;
+}
+
+.tanggal-lahir-label{
+    position:absolute;
+    left:848px;
+    top:244.5px;
+}
+
+.alamat{
+    position:absolute;
+    left:345px;
+    top:360px;
+}
+
+.alamat-label{
+    position:absolute;
+    left:374px;
+    top:327px;
+}
+
+.nomor-telepon-label{
+    position:absolute;
+    left:374px;
+    top:411px;
+}
+
+.nomor-telepon{
+    position:absolute;
+    left:345px;
+    top:443px;
+}
+
+.posisi-label{
+    position:absolute;
+    left:374px;
+    top:495px;
+}
+
+.posisi{
+    position:absolute;
+    left:345px;
+    top:527px;
+}
+
+.departemen-label{
+    position:absolute;
+    left:374px;
+    top:578px;
+}
+
+.departemen{
+    position:absolute;
+    left:345px;
+    top:610px;
+}
+
+.simpan{
+    font-family: 'Antic Didone';
+    position:absolute;
+    width:237px;
+    height:37.5px;
+    left:820px;
+    top:686px;
+    border: none;
+    background-color:white;
+    border-radius: 40px;
+    font-size:30px;
+    cursor: pointer;
+}
+
+.simpan:hover{
+    color: white;
+    background-color:black;
+    cursor: pointer;
+}
+
+.kembali{
+    font-family: 'Antic Didone';
+    position:absolute;
+    width:237px;
+    height:37.5px;
+    left:1080px;
+    top:686px;
+    border: none;
+    background-color:white;
+    border-radius: 40px;
+    font-size:30px;
+    cursor: pointer;
+}
+
+.kembali:hover{
+    color: white;
+    background-color:black;
+    cursor: pointer;
+}
+
+.fotoprofil{
+    width:230px;
+    height:230px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    position:absolute;
+    left:453px;
+    top:78px;
+}
+
+.unggahfoto{
+    width:230px;
+    height:230px;
+    position:absolute;
+    left:453px;
+    top:78px;
+    border-radius: 50%;
+    opacity:0;
+}
+
+/*Dikerjakan oleh Jessy*/
