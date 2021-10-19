@@ -1,0 +1,240 @@
+/*JOCELYN 2031013*/
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color: #1c1c1c;
+}
+
+.sidebar{
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+  
+.logo{
+    background-image: url('Logo Moment Studio.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    width: 240px;
+    height: 200px;
+}
+
+.sidebar a {
+    font-family: 'Antic Didone';
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    display: block;
+}
+
+.sidebar a:hover {
+    font-weight: bold;
+}
+  
+.menu{
+    border-color: #1c1c1c;
+    background-color: #484848;
+    min-width: 250px;
+    bottom: 3px;
+    padding-top: 4px;
+}
+
+.currentmenu{
+    border-color: #1c1c1c;
+    background-color: #1c1c1c;
+    min-width: 250px;
+    bottom: 3px;
+    padding-top: 4px;
+}
+
+.icotify{
+    background: url('https://api.iconify.design/el/css.svg') no-repeat center center / contain;
+    content: url('https://api.iconify.design/el/css.svg');
+}
+
+.calendar{
+    background: url('https://api.iconify.design/uil/calendar-alt.svg?color=white&width=29&height=29') no-repeat center center / contain;
+    content: url('https://api.iconify.design/uil/calendar-alt.svg?color=white&width=29&height=29');
+}
+
+.profil{
+    background: url('https://api.iconify.design/bx/bxs-user.svg?color=white&width=29&height=29') no-repeat center center / contain;
+    content: url('https://api.iconify.design/bx/bxs-user.svg?color=white&width=29&height=29');
+}
+
+.absensi{
+    background: url('https://api.iconify.design/ci/edit.svg?color=white&width=29&height=29') no-repeat center center / contain;
+    content: url('https://api.iconify.design/ci/edit.svg?color=white&width=29&height=29');
+}
+
+.laporan{
+    background: url('https://api.iconify.design/clarity/clipboard-line.svg?color=white&width=29&height=29') no-repeat center center / contain;
+    content: url('https://api.iconify.design/clarity/clipboard-line.svg?color=white&width=29&height=29');
+}
+
+.exit{
+    background: url('https://api.iconify.design/icomoon-free/exit.svg?color=white&width=29&height=29') no-repeat center center / contain;
+    content: url('https://api.iconify.design/icomoon-free/exit.svg?color=white&width=29&height=29');
+}
+
+.main {
+    color: white;
+    margin-left: 225px;
+    padding: 0px 70px;
+}
+
+.tanggal{
+    margin-top: 80px;
+    margin-left: 40px;
+    font-family: 'Antic Didone';
+    font-size: 30px;
+}
+
+.tanggal-awal{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    border: none;
+    width:270px;
+    height: 30px;
+    font-family: 'Antic Didone';
+    left:820px;
+    top:277px;
+    border-radius: 40px;
+}
+
+.tanggal-awal:focus{
+    outline: none;
+}
+
+.tanggal-akhir{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    border: none;
+    width:270px;
+    height: 30px;
+    font-family: 'Antic Didone';
+    left:820px;
+    top:277px;
+    border-radius: 40px;
+}
+
+.tanggal-akhir:focus{
+    outline: none;
+}
+
+.cari{
+    margin-left: 50px;
+    font-family: 'Antic Didone';
+    width:130px;
+    height:30px;
+    left:490px;
+    top:835px;
+    border: none;
+    background-color:white;
+    border-radius: 40px;
+    font-size:20px;
+    cursor: pointer;
+}
+
+.search{
+    background: url('https://api.iconify.design/bytesize/search.svg?color=black&width=20&height=20') no-repeat center center / contain;
+    content: url('https://api.iconify.design/bytesize/search.svg?color=black&width=20&height=20');
+}
+
+.cari:active{
+    background-color: white;
+    box-shadow: 0 2px black;
+    transform: translateY(4px);
+}
+
+.biodata-left{
+    margin-top: 80px;
+    margin-left: 40px;
+    font-family: 'Antic Didone';
+    font-size: 30px;
+}
+
+.biodata-right{
+    margin-top: 80px;
+    margin-right: 180px;
+    margin-left: 120px;
+    font-family: 'Antic Didone';
+    font-size: 30px;
+}
+
+.tabel{
+    font-size: 16px;
+    font-family: 'Antic Didone';
+    margin-left: 65px;
+    color: black;
+    text-align: center;
+}
+
+.cetak{
+    font-family: 'Antic Didone';
+    margin-top: 70px;
+    margin-left: 915px;
+    width:200px;
+    height:40px;
+    left:490px;
+    top:835px;
+    border: none;
+    background-color:white;
+    border-radius: 40px;
+    font-size:25px;
+    cursor: pointer;
+}
+
+.cetak:active{
+    background-color: white;
+    box-shadow: 0 2px black;
+    transform: translateY(4px);
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    .biodata-left *,.biodata-right *{
+        visibility: visible;
+    }
+    .tabel *{
+        visibility: visible;
+    }
+    .tanggal *{
+        visibility: hidden;
+    }
+
+    #section-to-print {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+  }
+
+@page{
+    size: A4 landscape;
+}
