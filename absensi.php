@@ -1,5 +1,3 @@
-<!-- JOCELYN 2031013 -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,8 +8,9 @@
     <link rel="stylesheet" href="absensi.css">
     <title>Absensi</title>
 </head>
-<body>
- <!-- sidebar -->
+<body>    
+<!-- JOCELYN 2031013 -->    
+    <!-- sidebar -->
     <div class="sidebar">
         <div class="logo">
         </div>
